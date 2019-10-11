@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+     file: db/migrations/V1/2019-10-10--01-initial-schema-create.yaml
+  - include:
+     file: db/migrations/V1/2019-10-10--02-user-data-import.yaml

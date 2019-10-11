@@ -1,0 +1,92 @@
+gradle structure/dependencies                                                                                   OK
+project directory structure                                                                                     OK
+declarate CORS properties in yml file                                                                           OK
+Create tomcat redirect from http to https                                                                       OK
+ - put hardcoded consts in yml or separate vars                                                                 OK
+Generate certificates                                                                                           OK
+Create scripts for testing REST endpoints
+
+Swagger + ascii doc                                                                                             OK
+Write doc for all  [check wagger newer versions]
+separate restricted / public api
+
+Logging (use logback/groovy)                                                                                    OK
+incoming request logging                                                                                        OK
+logging in separate files for:
+ -- transactions,
+ -- incoming requests,                                                                                          OK
+ -- hibernate calls,
+ -- exceptions, etc
+ -- Mongock autopopup
+ -- liquibase autopopup
+
+Add H2                                                                                                          OK
+use liquibase                                                                                                   OK
+
+Use orika mapper for DAO/DTO mapping
+JPA Audit (who created, when created, who modified, when modified)
+Use hibernate entity manager with complex request implementation
+Create stored procedure in mongo and launch it with spring
+Create stored procedure in h2 and launch it with spring
+Transactions
+
+@Embedded and @Embeddable annotations usage
+Use configProperties annotation  where possible
+Make custom annotation
+
+ExceptionHandler
+Create controllers
+
+    - add book
+    - get book by id
+    - change book info
+    - delete book
+    - get book by unique id
+
+    - add new reader
+    - get reader by id
+    - change reader info
+    - delete reader
+
+make some kind of reports with complex requests
+
+Integration tests
+Unit tests
+Test coverage
+Use testcontainers
+Use Parametrised tests
+
+Test coverage - show in readme.md (coverity badge)
+Build badge - show in readme.md (travis)
+Use docker in travis
+use .editorconfig
+
+
+Use spring email
+Use spring slack
+
+use spring security (token based auth + jwt)                                                                    OK
+
+Use MongoDB + Mongock for population
+Use HAL browser
+Use Spring Admin + secure it
+Use Spring actuator + secure it
+Use Money data type
+
+Use annotations for date, password, age, bank data validation
+Use Lombok
+    - val, var
+    - sneakythrows
+    - requiredArgsConstructor
+    - exclude lombok from tests
+
+Docker, DockerCompose
+
+Add documentation to README.MD
+Write Tech stack
+
+--------------------------------------------------------------------
+                        Frontend development
+--------------------------------------------------------------------
+
+Create Frontend (Angular 7)

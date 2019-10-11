@@ -1,0 +1,44 @@
+server:
+  httpPort: 8080
+  port: 8443
+  tomcat:
+    max-threads: 30
+
+  ssl:
+    enabled: true
+    key-alias: booklibrary_be
+    key-store: "classpath:certificates/Booklibrary_BE.p12"
+    key-store-type: PKCS12
+    key-store-password: 1f45ba3289dc081213e7aa4cb9b7bd92
+    key-password: 1f45ba3289dc081213e7aa4cb9b7bd92
+    ciphers: TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+    enabled-protocols: TLSv1, TLSv1.1, TLSv1.2
+    protocol: TLS
+    client-auth: want
+
+---
+spring:
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:test;MODE=MySQL;DB_CLOSE_DELAY=-1
+    schema: classpath*:db/initDB.sql
+    data:   classpath*:db/populateDB.sql
+    username: SA
+    password:
+    driverClassName: org.h2.Driver
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  liquibase:
+    change-log: classpath:/db/migrations/changelog.yaml
+
+---
+application:
+  environment: Production
+
+---

@@ -1,0 +1,17 @@
+ext {
+
+    apply plugin: 'com.palantir.docker'
+
+    task unpack(type: Copy) {
+        dependsOn bootJar
+        from(zipTree("build/libs/booklibrary-1.0.0.jar"))
+        into("build/dependency")
+    }
+
+    docker {
+        name "booklibrary"
+        copySpec.from(tasks.unpack.outputs).into("dependency")
+        buildArgs(['DEPENDENCY': "dependency"])
+    }
+}
+

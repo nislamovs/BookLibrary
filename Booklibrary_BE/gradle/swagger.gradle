@@ -1,0 +1,50 @@
+ext {
+
+    asciiDocOutputDir = file("${buildDir}/asciidoc/generated")
+    swaggerOutputDir = file("${buildDir}/swagger")
+    snippetsOutputDir = file("${buildDir}/asciidoc/snippets")
+
+    task swaggerTest(type: Test) {
+        useJUnitPlatform()
+        exclude 'com/booklibrary/app/integrationTests/**'
+        exclude 'com/booklibrary/app/testHelperClasses/**'
+        exclude 'com/booklibrary/app/unitTests/**'
+        include 'com/booklibrary/app/swagger/**'
+    }
+
+    convertSwagger2markup {
+
+        dependsOn swaggerTest
+        swaggerInput "${swaggerOutputDir}/swagger.json"
+        outputDir asciiDocOutputDir
+        config = [
+                'swagger2markup.pathsGroupedBy'                          : 'TAGS',
+                'swagger2markup.extensions.springRestDocs.snippetBaseUri': snippetsOutputDir.getAbsolutePath()]
+    }
+
+    asciidoctor {
+
+        dependsOn convertSwagger2markup
+        sources {
+            include 'index.adoc'
+        }
+        backends = ['html5', 'pdf']
+        attributes = [
+                doctype    : 'book',
+                toc        : 'left',
+                toclevels  : '3',
+                numbered   : '',
+                sectlinks  : '',
+                sectanchors: '',
+                hardbreaks : '',
+                generated  : asciiDocOutputDir
+        ]
+    }
+
+    tasks.register("swaggerDoc") {
+        group = 'Documentation'
+        description = 'Produces a API documentation in HTML, CSV and PDF formats'
+        dependsOn asciidoctor
+    }
+}
+

@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: SA
+  - changeSet:
+      id: 1
+      author: Nizami Islamovs
+      changes:
+        - createTable:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  type: long
+                  autoIncrement: true
+                  constraints:
+                    unique: true
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: active
+                  type: int
+              - column:
+                  name: password
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: permissions
+                  type: varchar(200)
+              - column:
+                  name: roles
+                  type: varchar(200)

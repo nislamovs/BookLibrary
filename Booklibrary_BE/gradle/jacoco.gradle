@@ -1,0 +1,21 @@
+ext {
+    apply plugin: 'jacoco'
+
+    jacoco {
+        toolVersion = "0.8.4"
+        reportsDir = file("${buildDir}/reports/jacoco")
+    }
+
+    jacocoTestReport {
+        reports {
+            xml.enabled true
+            csv.enabled true
+            html.enabled true
+
+            xml.destination = file("${buildDir}/reports/coverage/xml/coverage.xml")
+            csv.destination = file("${buildDir}/reports/coverage/csv/coverage.csv")
+            html.destination = file("${buildDir}/reports/coverage/html/")
+        }
+    }
+}
+

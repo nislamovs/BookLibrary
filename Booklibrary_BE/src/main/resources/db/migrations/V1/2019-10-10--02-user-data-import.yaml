@@ -1,0 +1,76 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: SA
+  - changeSet:
+      id: 1
+      author: Nizami Islamovs
+      comment: "Create users"
+      changes:
+        - insert:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  value: "1"
+              - column:
+                  name: active
+                  value: "1"
+              - column:
+                  name: username
+                  value: "dan"
+              - column:
+                  name: password
+                  value: "$2a$10$A.SIMbZUyRIUxJHDR0YSJuQF8OtwGDm.6BWxF9BtR3TObnPcqU3gC"
+              - column:
+                  name: roles
+                  value: "USER"
+              - column:
+                  name: permissions
+                  value: ""
+        - insert:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  value: "2"
+              - column:
+                  name: active
+                  value: "1"
+              - column:
+                  name: username
+                  value: "admin"
+              - column:
+                  name: password
+                  value: "$2a$10$Lw.mggzBVAq6OVZSpmCMxOZpptH7arc51HLZ3QiUUiQXcbE6GfT0e"
+              - column:
+                  name: roles
+                  value: "ADMIN"
+              - column:
+                  name: permissions
+                  value: "ACCESS_TEST1,ACCESS_TEST2"
+        - insert:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  value: "3"
+              - column:
+                  name: active
+                  value: "1"
+              - column:
+                  name: username
+                  value: "manager"
+              - column:
+                  name: password
+                  value: "$2a$10$sB0a.VZgrbHHb7aAfhtfuO5Dq4zdLCIKZEAkozbJq3/SjGLKGsQEK"
+              - column:
+                  name: roles
+                  value: "MANAGER"
+              - column:
+                  name: permissions
+                  value: "ACCESS_TEST1"
+      rollback:
+        - delete:
+            tableName: user
+            where: username in ('dan', 'admin', 'manager')

@@ -1,0 +1,31 @@
+application:
+  developer: Nizami Islamovs
+  version: v 1.0.0
+  deploymentdate: 2018-09-11 21:15:29
+  support.email: nizamiislamovs@gmail.com
+  description: Book library
+  title: Book library REST API
+
+spring:
+  profiles:
+    active: dev
+#  jackson:
+#    serialization:
+#      INDENT_OUTPUT: true
+
+#logging.level.org.hibernate.SQL: DEBUG
+#logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+logging.level.ROOT: INFO
+logging.level.org.springframework.orm.jpa: DEBUG
+logging.level.org.springframework.transaction: TRACE
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-methods: GET, POST, PUT, DELETE, OPTIONS
+        max-age: 3600s
+        allowed-origins: '*'
+        allow-credentials: true
