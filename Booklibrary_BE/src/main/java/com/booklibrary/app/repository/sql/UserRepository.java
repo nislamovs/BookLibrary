@@ -1,6 +1,6 @@
-package com.booklibrary.app.repository;
+package com.booklibrary.app.repository.sql;
 
-import com.booklibrary.app.models.User;
+import com.booklibrary.app.models.sql.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

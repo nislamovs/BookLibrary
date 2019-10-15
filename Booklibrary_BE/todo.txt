@@ -4,24 +4,32 @@ declarate CORS properties in yml file                                           
 Create tomcat redirect from http to https                                                                       OK
  - put hardcoded consts in yml or separate vars                                                                 OK
 Generate certificates                                                                                           OK
-Create scripts for testing REST endpoints
+Create scripts for testing REST endpoints (use bash and integrated intellijIDEA rest client)                    --
 
 Swagger + ascii doc                                                                                             OK
-Write doc for all  [check wagger newer versions]
-separate restricted / public api
+Write doc for all  [check Swagger newer versions]                                                               --
+separate restricted / public api                                                                                --
 
 Logging (use logback/groovy)                                                                                    OK
 incoming request logging                                                                                        OK
 logging in separate files for:
- -- transactions,
- -- incoming requests,                                                                                          OK
- -- hibernate calls,
- -- exceptions, etc
- -- Mongock autopopup
- -- liquibase autopopup
+     -- transactions,
+     -- incoming requests,                                                                                      OK
+
+     -- hibernate calls,
+     -- mongo requests
+     -- exceptions, etc
+
+     -- Mongock autopopup
+     -- liquibase autopopup
 
 Add H2                                                                                                          OK
 use liquibase                                                                                                   OK
+Use MongoDB + Mongock for population                                                                            OK
+MongoAuditing                                                                                                   --
+
+Fill h2 database with data
+Fill mongo database with data [100 books, 50 users]
 
 Use orika mapper for DAO/DTO mapping
 JPA Audit (who created, when created, who modified, when modified)
@@ -32,7 +40,7 @@ Transactions
 
 @Embedded and @Embeddable annotations usage
 Use configProperties annotation  where possible
-Make custom annotation
+Make custom annotation (ISBN)
 
 ExceptionHandler
 Create controllers
@@ -53,25 +61,25 @@ make some kind of reports with complex requests
 Integration tests
 Unit tests
 Test coverage
+Testing mongo stuff
 Use testcontainers
 Use Parametrised tests
 
 Test coverage - show in readme.md (coverity badge)
 Build badge - show in readme.md (travis)
 Use docker in travis
-use .editorconfig
+use .editorconfig                                                                                               OK
 
-
-Use spring email
+Use spring email - use trapmail
 Use spring slack
 
 use spring security (token based auth + jwt)                                                                    OK
 
-Use MongoDB + Mongock for population
 Use HAL browser
 Use Spring Admin + secure it
 Use Spring actuator + secure it
-Use Money data type
+Use Money data type                                                                                             OK
+Use Enums, Enumset                                                                                              --
 
 Use annotations for date, password, age, bank data validation
 Use Lombok
@@ -80,10 +88,39 @@ Use Lombok
     - requiredArgsConstructor
     - exclude lombok from tests
 
-Docker, DockerCompose
+Docker, DockerCompose [gradle / bash scripts]
+- BookLibrary BE
+- BookLibrary FE
+- MongoDB
+- Postgres
 
-Add documentation to README.MD
-Write Tech stack
+Add documentation to README.MD                                                                                  OK
+Write Tech stack                                                                                                OK
+
+Design databases
+- sql
+
+
+- nosql
+
+Bookdata document                                                                                               OK
+Book Image document                                                                                             OK
+Book document                                                                                                   OK
+userdata document - user info                                                                                   OK
+History document - which books was taking, who, when was taking.                                                OK
+Debts document - who didn't give back                                                                           OK
+Payments document - penalties                                                                                   OK
+Penalty plan                                                                                                    OK
+Abstract entity for creation date and modification date                                                         OK
+
+Create validation for document entities
+Create aggregations
+
+--------------------------------------------------------------------
+
+Create repositories
+Use pagination
+
 
 --------------------------------------------------------------------
                         Frontend development

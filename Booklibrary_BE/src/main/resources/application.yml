@@ -13,8 +13,11 @@ spring:
 #    serialization:
 #      INDENT_OUTPUT: true
 
-#logging.level.org.hibernate.SQL: DEBUG
-#logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+logging.level.org.springframework.boot.autoconfigure.mongo.embedded: INFO
+logging.level.org.mongodb: INFO
 
 logging.level.ROOT: INFO
 logging.level.org.springframework.orm.jpa: DEBUG

@@ -1,4 +1,4 @@
-package com.booklibrary.app.models;
+package com.booklibrary.app.models.sql;
 
 public class LoginViewModel {
     private String username;

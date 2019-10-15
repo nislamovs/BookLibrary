@@ -7,7 +7,7 @@ appender("FILE", RollingFileAppender) {
         pattern = '%d{"yyyy-MM-dd HH:mm:ss,SSS", Europe/Helsinki} %-5p [%t] %c - %msg%n'
     }
     rollingPolicy(TimeBasedRollingPolicy) {
-        fileNamePattern = 'Booklibrary_%d{dd-MM-yyyy}-%i.log.zip'
+        fileNamePattern = 'logs/Booklibrary_%d{dd-MM-yyyy}-%i.log.zip'
         timeBasedFileNamingAndTriggeringPolicy(SizeAndTimeBasedFNATP) {
             maxFileSize = "10MB"
         }

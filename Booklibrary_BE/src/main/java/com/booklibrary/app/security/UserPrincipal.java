@@ -1,6 +1,6 @@
 package com.booklibrary.app.security;
 
-import com.booklibrary.app.models.User;
+import com.booklibrary.app.models.sql.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

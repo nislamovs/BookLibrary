@@ -1,7 +1,7 @@
 package com.booklibrary.app.controllers;
 
-import com.booklibrary.app.models.User;
-import com.booklibrary.app.repository.UserRepository;
+import com.booklibrary.app.models.sql.User;
+import com.booklibrary.app.repository.sql.UserRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

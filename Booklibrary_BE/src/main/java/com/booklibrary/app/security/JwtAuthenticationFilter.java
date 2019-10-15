@@ -1,7 +1,7 @@
 package com.booklibrary.app.security;
 
 import com.auth0.jwt.JWT;
-import com.booklibrary.app.models.LoginViewModel;
+import com.booklibrary.app.models.sql.LoginViewModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

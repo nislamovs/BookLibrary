@@ -39,7 +39,13 @@ spring:
       ddl-auto: validate
   liquibase:
     change-log: classpath:/db/migrations/changelog.yaml
-
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: booklibrary
+    mongock:
+      changeset-path: "com.booklibrary.app.mongodb.dbInit.changesets"
 
 ---
 application:

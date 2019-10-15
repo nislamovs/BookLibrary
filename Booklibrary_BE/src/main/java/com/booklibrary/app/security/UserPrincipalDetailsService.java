@@ -1,7 +1,7 @@
 package com.booklibrary.app.security;
 
-import com.booklibrary.app.models.User;
-import com.booklibrary.app.repository.UserRepository;
+import com.booklibrary.app.models.sql.User;
+import com.booklibrary.app.repository.sql.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
