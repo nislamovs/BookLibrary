@@ -1,0 +1,93 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: SA
+  - changeSet:
+      id: 1
+      author: Nizami Islamovs
+      changes:
+        - sql:
+            comment: Creating audit schema
+            dbms: h2, postgre
+            endDelimiter: \nGO
+            splitStatements: true
+            sql: create schema AUDIT
+            stripComments: true
+  - changeSet:
+      id: 2
+      author: Nizami Islamovs
+      changes:
+        - createSequence:
+            cycle: true
+            incrementBy: 1
+            ordered: false
+            sequenceName: HIBERNATE_SEQUENCE
+            startValue: 1
+  - changeSet:
+      id: 3
+      author: Nizami Islamovs
+      changes:
+        - createTable:
+            schemaName: AUDIT
+            tableName: REVINFO
+            columns:
+              - column:
+                  name: REV
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    unique: true
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: REVTSTMP
+                  type: bigint
+              - column:
+                  name: USERNAME
+                  type: VARCHAR(255)
+              - column:
+                  name: REVISION_DATE
+                  type: timestamp
+  - changeSet:
+      id: 4
+      author: Nizami Islamovs
+      changes:
+        - createTable:
+            schemaName: AUDIT
+            tableName: RANDOM_AUD
+            columns:
+              - column:
+                  name: ID
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: REV
+                  type: INTEGER
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: REVTYPE
+                  type: TINYINT
+              - column:
+                  name: FIRSTNAME
+                  type: VARCHAR(255)
+              - column:
+                  name: LASTNAME
+                  type: VARCHAR(255)
+              - column:
+                  name: EMAIL
+                  type: VARCHAR(255)
+  - changeSet:
+      id: 5
+      author: Nizami Islamovs
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: REV
+            baseTableName: RANDOM_AUD
+            baseTableSchemaName: AUDIT
+            constraintName: RANDOM_AUD_REVINFO
+            referencedColumnNames: REV
+            referencedTableName: REVINFO
+            referencedTableSchemaName: AUDIT

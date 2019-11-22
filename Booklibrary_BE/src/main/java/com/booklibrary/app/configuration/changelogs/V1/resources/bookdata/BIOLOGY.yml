@@ -1,0 +1,33 @@
+books:
+  - bookId: 1
+    bookTitle: "Soil Micromorphology: Studies in Management and Genesis"
+    isbn: "9780080869902"
+    publisher: "Elsevier"
+    authors: Kai Knoerzer,  Pablo Juliano,  Geoffrey W Smithers
+    categories: "BIOLOGY"
+    searchInfo: "The papers in this volume cover micromorphological studies of a wide variety of topics, at various scales from ultramicro- to mesoscopic."
+    annotation: "The papers in this volume cover micromorphological studies of a wide variety of topics, at various scales from ultramicro- to mesoscopic. Topics included are: soil management; soil structure; surface crusts; hardpans and cemented layers; soil biota; soil genesis; hydromorphic soils; paleosols; archeology; and general pedology. The range of papers reflects the growing use of soil micromorphology in understanding soil problems in land-use and the increasing use of quantitative techniques, together with more traditional applications in pedology. The book is well illustrated with micrographs and contains both author and keyword indices."
+    pages: 885
+    publishedDate: 1994-08-01
+    language: "EN"
+    totalCount: 9
+    availableCount: 6
+    popularityRate: 1.9
+    internalPrice: "EUR 46.54"
+    bookPhoto: {}
+  - bookId: 2
+    bookTitle: "Innovative Food Processing Technologies"
+    isbn: "9780081002988"
+    publisher: "Woodhead Publishing"
+    authors: Kai Knoerzer,  Pablo Juliano,  Geoffrey W Smithers
+    categories: "BIOLOGY"
+    searchInfo: "The book is highly focused on the application of new and novel technologies, beginning with an introductory chapter, and then detailing technologies which can be used to extract food components."
+    annotation: "Innovative Food Processing Technologies: Extraction, Separation, Component Modification and Process Intensification focuses on advances in new and novel non-thermal processing technologies which allow food producers to modify and process food with minimal damage to the foodstuffs. The book is highly focused on the application of new and novel technologies, beginning with an introductory chapter, and then detailing technologies which can be used to extract food components. Further sections on the use of technologies to modify the structure of food and the separation of food components are also included, with a final section focusing on process intensification and enhancement. Provides information on a variety of food processing technologies Focuses on advances in new and novel non-thermal processing technologies which allow food producers to modify and process food with minimal damage to the foodstuffs Presents a strong focus on the application of technologies in a variety of situations Created by editors who have a background in both the industry and academia"
+    pages: 510
+    publishedDate: 2016-06-29
+    language: "EN"
+    totalCount: 23
+    availableCount: 18
+    popularityRate: 4.5
+    internalPrice: "EUR 203.28"
+    bookPhoto: {}

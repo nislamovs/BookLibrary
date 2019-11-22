@@ -1,0 +1,6796 @@
+bookstorage:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "0080869904"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 4
+    isbn: 9780123751553
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: 9780080869902
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: 9780081002988
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: 9780124115354
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 80
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 81
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 82
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 83
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 84
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 85
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 86
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 87
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 88
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 89
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 90
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 91
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 92
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 93
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 94
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 95
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 96
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 97
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 98
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 99
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 100
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 101
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 102
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 103
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 104
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 105
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 106
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 107
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 108
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 109
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 110
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 111
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 112
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 113
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 114
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 115
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 116
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 117
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 118
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 119
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 120
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 121
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 122
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 123
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 124
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 125
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 126
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 127
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 128
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 80
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 81
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 82
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 83
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 84
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 85
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 86
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 87
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 88
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 89
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 90
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 91
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 80
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 81
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 82
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 83
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 84
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 85
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 86
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 87
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 88
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 89
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 90
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 91
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 92
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 93
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 94
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 95
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 96
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 97
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 98
+    bookId: 9
+    isbn: "9780128096314"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 99
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 100
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 101
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 102
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 103
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 104
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 105
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 106
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 107
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 108
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 109
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 110
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 111
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 112
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 113
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 114
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 115
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 116
+    bookId: 10
+    isbn: "9780128006382"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 117
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 118
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 119
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 120
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 121
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 122
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 123
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 124
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 125
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 126
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 127
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 128
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 129
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 130
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 131
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 132
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 133
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 134
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 135
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 136
+    bookId: 11
+    isbn: "9780128117514"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 137
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 138
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 139
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 140
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 141
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 142
+    bookId: 12
+    isbn: "9780080477909"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 143
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 144
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 145
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 146
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 147
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 148
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 149
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 150
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 151
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 152
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 153
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 154
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 155
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 156
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 157
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 158
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 159
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 160
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 161
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 162
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 163
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 164
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 165
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 166
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 167
+    bookId: 13
+    isbn: "9780128096673"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 168
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 169
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 170
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 171
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 172
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 173
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 174
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 175
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 176
+    bookId: 14
+    isbn: "9780080961620"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 177
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 178
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 179
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 180
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 181
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 182
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 183
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 184
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 185
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 186
+    bookId: 15
+    isbn: "9780128096291"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 187
+    bookId: 16
+    isbn: "9780080579375"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 188
+    bookId: 16
+    isbn: "9780080579375"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 189
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 190
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 191
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 192
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 193
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 194
+    bookId: 17
+    isbn: "9781483287256"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 195
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 196
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 197
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 198
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 199
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 200
+    bookId: 18
+    isbn: "9780080920863"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 201
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 202
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 203
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 204
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 205
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 206
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 207
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 208
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 209
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 210
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 211
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 212
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 213
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 214
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 215
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 216
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 217
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 218
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 219
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 220
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 221
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 222
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 223
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 224
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 225
+    bookId: 19
+    isbn: "9780124166134"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 226
+    bookId: 20
+    isbn: "9780080877983"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 227
+    bookId: 20
+    isbn: "9780080877983"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 228
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 229
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 230
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 231
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 232
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 233
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 234
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 235
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 236
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 237
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 238
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 239
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 240
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 241
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 242
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 243
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 244
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 245
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 246
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 247
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 248
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 249
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 250
+    bookId: 21
+    isbn: "9780123756893"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 251
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 252
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 253
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 254
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 255
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 256
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 257
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 258
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 259
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 260
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 261
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 262
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 263
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 264
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 265
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 266
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 267
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 268
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 269
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 270
+    bookId: 22
+    isbn: "9780323137966"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 271
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 272
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 273
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 274
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 275
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 276
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 277
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 278
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 279
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 280
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 281
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 282
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 283
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 284
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 285
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 286
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 287
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 288
+    bookId: 23
+    isbn: "9780080870656"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 289
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 290
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 291
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 292
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 293
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 294
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 295
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 296
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 297
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 298
+    bookId: 24
+    isbn: "9781782424703"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 80
+    bookId: 8
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 3
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 4
+    isbn: "9780123877000"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 1
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 2
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 3
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 4
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 5
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 6
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 7
+    bookId: 1
+    isbn: "9780080869902"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 8
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 9
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 10
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 11
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 12
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 13
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 14
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 15
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 16
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 17
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 18
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 19
+    bookId: 2
+    isbn: "9780081002988"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 20
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 21
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 22
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 23
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 24
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 25
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 26
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 27
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 28
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 29
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 30
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 31
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 32
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 33
+    bookId: 3
+    isbn: "9780124115354"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 34
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 35
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 36
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 37
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 38
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 39
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 40
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 41
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 42
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 43
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 44
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 45
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 46
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 47
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 48
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 49
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 50
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 51
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 52
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 53
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 54
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 55
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 56
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 57
+    bookId: 4
+    isbn: "9780123751553"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 58
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 59
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 60
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 61
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 62
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 63
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 64
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 65
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 66
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 67
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 68
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 69
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 70
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 71
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 72
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 73
+    bookId: 5
+    isbn: "9780128140444"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 74
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 75
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 76
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 77
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 78
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 79
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 80
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 81
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 82
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 83
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 84
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 85
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 86
+    bookId: 6
+    isbn: "9780128131886"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 87
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 88
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 89
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 90
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 91
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 92
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 93
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 94
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 95
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 96
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 97
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 98
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 99
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 100
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 101
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 102
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 103
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:
+  - bookNumber: 104
+    bookId: 7
+    isbn: "9780128114520"
+    status: ON_SHELF
+    holderId:

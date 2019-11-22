@@ -1,3 +1,5 @@
 databaseChangeLog:
   - include:
-     file: db/migrations/V1/changelog-v.1.0-cumulative.yaml
+      file: db/migrations/V1/changelog-v.1.0-cumulative.yaml
+  - include:
+      file: db/migrations/V2/changelog-v.2.0-cumulative.yaml

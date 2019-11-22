@@ -1,0 +1,361 @@
+history:
+  - historyRecordId: 1
+    visitorId: 1
+    bookNumber: 6
+    bookPickDate: 2018-10-24
+    bookExpectedReturnDate: 2018-11-05
+    bookActualReturnDate: 2018-11-24
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 2
+    visitorId: 2
+    bookNumber: 11
+    bookPickDate: 2018-09-22
+    bookExpectedReturnDate: 2018-10-08
+    bookActualReturnDate: 2018-10-14
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 3
+    visitorId: 3
+    bookNumber: 16
+    bookPickDate: 2016-08-06
+    bookExpectedReturnDate: 2016-08-16
+    bookActualReturnDate: 2016-08-30
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 4
+    visitorId: 4
+    bookNumber: 21
+    bookPickDate: 2018-04-17
+    bookExpectedReturnDate: 2018-05-03
+    bookActualReturnDate: 2018-05-09
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 5
+    visitorId: 5
+    bookNumber: 26
+    bookPickDate: 2019-03-19
+    bookExpectedReturnDate: 2019-04-06
+    bookActualReturnDate: 2019-04-23
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 6
+    visitorId: 6
+    bookNumber: 31
+    bookPickDate: 2017-01-14
+    bookExpectedReturnDate: 2017-02-02
+    bookActualReturnDate: 2017-02-18
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 7
+    visitorId: 7
+    bookNumber: 36
+    bookPickDate: 2017-12-14
+    bookExpectedReturnDate: 2017-12-25
+    bookActualReturnDate: 2017-12-26
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 8
+    visitorId: 8
+    bookNumber: 41
+    bookPickDate: 2018-04-08
+    bookExpectedReturnDate: 2018-04-17
+    bookActualReturnDate: 2018-05-03
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 9
+    visitorId: 9
+    bookNumber: 46
+    bookPickDate: 2018-07-10
+    bookExpectedReturnDate: 2018-07-16
+    bookActualReturnDate: 2018-08-01
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 10
+    visitorId: 10
+    bookNumber: 51
+    bookPickDate: 2016-06-28
+    bookExpectedReturnDate: 2016-07-02
+    bookActualReturnDate: 2016-07-06
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 11
+    visitorId: 11
+    bookNumber: 56
+    bookPickDate: 2016-03-30
+    bookExpectedReturnDate: 2016-04-05
+    bookActualReturnDate: 2016-04-24
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 12
+    visitorId: 12
+    bookNumber: 61
+    bookPickDate: 2019-09-20
+    bookExpectedReturnDate: 2019-09-30
+    bookActualReturnDate: 2019-10-08
+    isFailedBookReturn: true
+    debt: 
+    feedback: 4
+    comment: 
+  - historyRecordId: 13
+    visitorId: 13
+    bookNumber: 66
+    bookPickDate: 2015-12-22
+    bookExpectedReturnDate: 2016-01-05
+    bookActualReturnDate: 2016-01-11
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 14
+    visitorId: 14
+    bookNumber: 71
+    bookPickDate: 2016-07-06
+    bookExpectedReturnDate: 2016-07-14
+    bookActualReturnDate: 2016-07-21
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 15
+    visitorId: 15
+    bookNumber: 76
+    bookPickDate: 2015-12-10
+    bookExpectedReturnDate: 2015-12-18
+    bookActualReturnDate: 2015-12-23
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 16
+    visitorId: 16
+    bookNumber: 81
+    bookPickDate: 2019-04-21
+    bookExpectedReturnDate: 2019-05-03
+    bookActualReturnDate: 2019-05-06
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 17
+    visitorId: 17
+    bookNumber: 86
+    bookPickDate: 2019-06-29
+    bookExpectedReturnDate: 2019-07-09
+    bookActualReturnDate: 2019-07-23
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 18
+    visitorId: 18
+    bookNumber: 91
+    bookPickDate: 2017-01-28
+    bookExpectedReturnDate: 2017-02-01
+    bookActualReturnDate: 2017-02-21
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 19
+    visitorId: 19
+    bookNumber: 96
+    bookPickDate: 2019-01-24
+    bookExpectedReturnDate: 2019-02-05
+    bookActualReturnDate: 2019-02-17
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 20
+    visitorId: 20
+    bookNumber: 101
+    bookPickDate: 2018-05-21
+    bookExpectedReturnDate: 2018-05-29
+    bookActualReturnDate: 2018-06-04
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 21
+    visitorId: 21
+    bookNumber: 106
+    bookPickDate: 2017-08-18
+    bookExpectedReturnDate: 2017-09-06
+    bookActualReturnDate: 2017-09-21
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 22
+    visitorId: 22
+    bookNumber: 111
+    bookPickDate: 2016-01-25
+    bookExpectedReturnDate: 2016-02-12
+    bookActualReturnDate: 2016-02-19
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 23
+    visitorId: 23
+    bookNumber: 116
+    bookPickDate: 2016-07-15
+    bookExpectedReturnDate: 2016-07-27
+    bookActualReturnDate: 2016-08-02
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 24
+    visitorId: 24
+    bookNumber: 121
+    bookPickDate: 2018-07-03
+    bookExpectedReturnDate: 2018-07-15
+    bookActualReturnDate: 2018-08-04
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 25
+    visitorId: 25
+    bookNumber: 126
+    bookPickDate: 2017-10-19
+    bookExpectedReturnDate: 2017-11-08
+    bookActualReturnDate: 2017-11-17
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 26
+    visitorId: 26
+    bookNumber: 131
+    bookPickDate: 2016-01-19
+    bookExpectedReturnDate: 2016-01-26
+    bookActualReturnDate: 2016-02-14
+    isFailedBookReturn: true
+    debt: 
+    feedback: 1
+    comment: 
+  - historyRecordId: 27
+    visitorId: 27
+    bookNumber: 136
+    bookPickDate: 2016-09-16
+    bookExpectedReturnDate: 2016-10-04
+    bookActualReturnDate: 2016-10-17
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 28
+    visitorId: 28
+    bookNumber: 141
+    bookPickDate: 2016-02-17
+    bookExpectedReturnDate: 2016-03-02
+    bookActualReturnDate: 2016-03-16
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 29
+    visitorId: 29
+    bookNumber: 146
+    bookPickDate: 2018-03-26
+    bookExpectedReturnDate: 2018-03-30
+    bookActualReturnDate: 2018-04-18
+    isFailedBookReturn: true
+    debt: 
+    feedback: 4
+    comment: 
+  - historyRecordId: 30
+    visitorId: 30
+    bookNumber: 151
+    bookPickDate: 2016-08-21
+    bookExpectedReturnDate: 2016-08-27
+    bookActualReturnDate: 2016-09-10
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 
+  - historyRecordId: 31
+    visitorId: 31
+    bookNumber: 156
+    bookPickDate: 2018-08-21
+    bookExpectedReturnDate: 2018-09-03
+    bookActualReturnDate: 2018-09-16
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 32
+    visitorId: 32
+    bookNumber: 161
+    bookPickDate: 2017-02-14
+    bookExpectedReturnDate: 2017-03-06
+    bookActualReturnDate: 2017-03-15
+    isFailedBookReturn: true
+    debt: 
+    feedback: 4
+    comment: 
+  - historyRecordId: 33
+    visitorId: 33
+    bookNumber: 166
+    bookPickDate: 2019-07-18
+    bookExpectedReturnDate: 2019-07-31
+    bookActualReturnDate: 2019-08-04
+    isFailedBookReturn: true
+    debt: 
+    feedback: 4
+    comment: 
+  - historyRecordId: 34
+    visitorId: 34
+    bookNumber: 171
+    bookPickDate: 2016-08-20
+    bookExpectedReturnDate: 2016-08-28
+    bookActualReturnDate: 2016-09-06
+    isFailedBookReturn: true
+    debt: 
+    feedback: 2
+    comment: 
+  - historyRecordId: 35
+    visitorId: 35
+    bookNumber: 176
+    bookPickDate: 2018-05-20
+    bookExpectedReturnDate: 2018-05-26
+    bookActualReturnDate: 2018-06-15
+    isFailedBookReturn: true
+    debt: 
+    feedback: 5
+    comment: 
+  - historyRecordId: 36
+    visitorId: 36
+    bookNumber: 181
+    bookPickDate: 2018-04-02
+    bookExpectedReturnDate: 2018-04-12
+    bookActualReturnDate: 2018-04-14
+    isFailedBookReturn: true
+    debt: 
+    feedback: 3
+    comment: 

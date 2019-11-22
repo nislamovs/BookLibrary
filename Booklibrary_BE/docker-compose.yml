@@ -1,0 +1,5 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:latest
+    command: mongod --port 27018

@@ -1,0 +1,27 @@
+CREATED BY
+/bin/sh -c #(nop)  CMD ["mongod"]
+/bin/sh -c #(nop)  EXPOSE 27017
+/bin/sh -c #(nop)  ENTRYPOINT ["docker-entrypoint.sh"]
+/bin/sh -c #(nop) COPY file:021686a669d0d1d1cbb99d6ca84ff8de10577b78ea985b8cdab9d75b347a3bd0 in /usr/local/bin/
+/bin/sh -c #(nop)  VOLUME [/data/db /data/configdb]
+/bin/sh -c mkdir -p /data/db /data/configdb  && chown -R mongodb:mongodb /data/db /data/configdb
+/bin/sh -c set -x  && apt-get update  && apt-get install -y   ${MONGO_PACKAGE}=$MONGO_VERSION   ${MONGO_PACKAGE}-server=$MONGO_VERSION   ${MONGO_PACKAGE}-shell=$MONGO_VERSION   ${MONGO_PACKAGE}-mongos=$MONGO_VERSION   ${MONGO_PACKAGE}-tools=$MONGO_VERSION  && rm -rf /var/lib/apt/lists/*  && rm -rf /var/lib/mongodb  && mv /etc/mongod.conf /etc/mongod.conf.orig
+/bin/sh -c echo "deb http://$MONGO_REPO/apt/ubuntu bionic/${MONGO_PACKAGE%-unstable}/$MONGO_MAJOR multiverse" | tee "/etc/apt/sources.list.d/${MONGO_PACKAGE%-unstable}.list"
+/bin/sh -c #(nop)  ENV MONGO_VERSION=4.2.1
+/bin/sh -c #(nop)  ENV MONGO_MAJOR=4.2
+/bin/sh -c #(nop)  ENV MONGO_PACKAGE=mongodb-org MONGO_REPO=repo.mongodb.org
+/bin/sh -c #(nop)  ARG MONGO_REPO=repo.mongodb.org
+/bin/sh -c #(nop)  ARG MONGO_PACKAGE=mongodb-org
+/bin/sh -c set -ex;  export GNUPGHOME="$(mktemp -d)";  for key in $GPG_KEYS; do   gpg --batch --keyserver ha.pool.sks-keyservers.net --recv-keys "$key";  done;  gpg --batch --export $GPG_KEYS > /etc/apt/trusted.gpg.d/mongodb.gpg;  command -v gpgconf && gpgconf --kill all || :;  rm -r "$GNUPGHOME";  apt-key list
+/bin/sh -c #(nop)  ENV GPG_KEYS=E162F504A20CDF15827F718D4B7C549A058F8B6B
+/bin/sh -c mkdir /docker-entrypoint-initdb.d
+/bin/sh -c set -ex;   savedAptMark="$(apt-mark showmanual)";  apt-get update;  apt-get install -y --no-install-recommends   wget  ;  if ! command -v gpg > /dev/null; then   apt-get install -y --no-install-recommends gnupg dirmngr;   savedAptMark="$savedAptMark gnupg dirmngr";  elif gpg --version | grep -q '^gpg (GnuPG) 1\.'; then   apt-get install -y --no-install-recommends gnupg-curl;  fi;  rm -rf /var/lib/apt/lists/*;   dpkgArch="$(dpkg --print-architecture | awk -F- '{ print $NF }')";  wget -O /usr/local/bin/gosu "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$dpkgArch";  wget -O /usr/local/bin/gosu.asc "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$dpkgArch.asc";  export GNUPGHOME="$(mktemp -d)";  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4;  gpg --batch --verify /usr/local/bin/gosu.asc /usr/local/bin/gosu;  command -v gpgconf && gpgconf --kill all || :;  rm -r "$GNUPGHOME" /usr/local/bin/gosu.asc;  chmod +x /usr/local/bin/gosu;  gosu --version;  gosu nobody true;   wget -O /js-yaml.js "https://github.com/nodeca/js-yaml/raw/${JSYAML_VERSION}/dist/js-yaml.js";   apt-mark auto '.*' > /dev/null;  apt-mark manual $savedAptMark > /dev/null;  apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false
+/bin/sh -c #(nop)  ENV JSYAML_VERSION=3.13.0
+/bin/sh -c #(nop)  ENV GOSU_VERSION=1.11
+/bin/sh -c set -eux;  apt-get update;  apt-get install -y --no-install-recommends   ca-certificates   jq   numactl  ;  if ! command -v ps > /dev/null; then   apt-get install -y --no-install-recommends procps;  fi;  rm -rf /var/lib/apt/lists/*
+/bin/sh -c groupadd -r mongodb && useradd -r -g mongodb mongodb
+/bin/sh -c #(nop)  CMD ["/bin/bash"]
+/bin/sh -c mkdir -p /run/systemd && echo 'docker' > /run/systemd/container
+/bin/sh -c set -xe   && echo '#!/bin/sh' > /usr/sbin/policy-rc.d  && echo 'exit 101' >> /usr/sbin/policy-rc.d  && chmod +x /usr/sbin/policy-rc.d   && dpkg-divert --local --rename --add /sbin/initctl  && cp -a /usr/sbin/policy-rc.d /sbin/initctl  && sed -i 's/^exit.*/exit 0/' /sbin/initctl   && echo 'force-unsafe-io' > /etc/dpkg/dpkg.cfg.d/docker-apt-speedup   && echo 'DPkg::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' > /etc/apt/apt.conf.d/docker-clean  && echo 'APT::Update::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' >> /etc/apt/apt.conf.d/docker-clean  && echo 'Dir::Cache::pkgcache ""; Dir::Cache::srcpkgcache "";' >> /etc/apt/apt.conf.d/docker-clean   && echo 'Acquire::Languages "none";' > /etc/apt/apt.conf.d/docker-no-languages   && echo 'Acquire::GzipIndexes "true"; Acquire::CompressionTypes::Order:: "gz";' > /etc/apt/apt.conf.d/docker-gzip-indexes   && echo 'Apt::AutoRemove::SuggestsImportant "false";' > /etc/apt/apt.conf.d/docker-autoremove-suggests
+/bin/sh -c [ -z "$(apt-get indextargets)" ]
+/bin/sh -c #(nop) ADD file:a48a5dc1b9dbfc632f6cf86fe27b770b63f07a115c98c4465dc184e303a4efa1 in /

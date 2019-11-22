@@ -1,0 +1,21 @@
+penaltyPlans:
+  - planId: 1
+    penaltyType: LITE
+    basicPenalty: EUR 5.00
+    penaltyPerDay: EUR 1.00
+    multiplierCoefficient: 1.0
+  - planId: 2
+    penaltyType: MEDIUM
+    basicPenalty: EUR 10.00
+    penaltyPerDay: EUR 2.00
+    multiplierCoefficient: 1.1
+  - planId: 3
+    penaltyType: HARD
+    basicPenalty: EUR 15.00
+    penaltyPerDay: EUR 3.00
+    multiplierCoefficient: 1.3
+  - planId: 4
+    penaltyType: CRUEL
+    basicPenalty: EUR 20.00
+    penaltyPerDay: EUR 5.00
+    multiplierCoefficient: 1.5

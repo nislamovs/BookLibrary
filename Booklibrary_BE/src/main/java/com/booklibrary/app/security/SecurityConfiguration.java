@@ -1,6 +1,6 @@
 package com.booklibrary.app.security;
 
-import com.booklibrary.app.repository.sql.UserRepository;
+import com.booklibrary.app.repository.sql.stuff.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -34,19 +34,31 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
 
-                // add jwt filters (1. authentication, 2. authorization)
+            // add jwt filters (1. authentication, 2. authorization)
                 .authorizeRequests()
                 .antMatchers("/h2/**").permitAll()
                 .antMatchers("/favicon.ico").permitAll()
-                    // configure access rules
+            //Swagger
+                .antMatchers("/swagger-ui.html/**").permitAll()
+                .antMatchers("/webjars/**").permitAll()
+                .antMatchers("/configuration/**").permitAll()
+                .antMatchers("/swagger-resources/**").permitAll()
+                .antMatchers("/v2/api-docs/**").permitAll()
+                .antMatchers("/csrf/**").permitAll()
+                .antMatchers("/csrf").permitAll()
+                .antMatchers("/").permitAll()
+
+            // configure access rules
                 .antMatchers(HttpMethod.POST, "/login").permitAll()
-                .antMatchers(HttpMethod.GET, "/test").permitAll()
+                .antMatchers(HttpMethod.GET, "/test/**").permitAll()
+                .antMatchers(HttpMethod.GET, "/api/v1/**").permitAll()      //for dev period
                 .antMatchers("/api/public/management/*").hasRole("MANAGER")
                 .antMatchers("/api/public/admin/*").hasRole("ADMIN")
 
                 .anyRequest().authenticated();
         http// remove csrf and state in session because in jwt we do not need them
-                .csrf().disable()
+//                .csrf().disable()       //that was before // commented, because of swagger csrf bug
+
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
 

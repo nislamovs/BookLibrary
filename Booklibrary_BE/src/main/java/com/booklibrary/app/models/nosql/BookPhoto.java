@@ -1,18 +1,21 @@
 package com.booklibrary.app.models.nosql;
 
-import lombok.Builder;
-import lombok.Data;
+import com.booklibrary.app.models.nosql.audit.AbstractDocument;
+import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+@EqualsAndHashCode(callSuper = true)
 @Builder
 @Data
-@Document(collection = "BookPhotos")
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "bookPhotos")
 public class BookPhoto extends AbstractDocument {
 
-    private String bookId;
+    private String bookPhotoId;
 
-    private byte[] photo;
+    private String isbn;
 
-    private byte[] icon;
+    private String bookPhoto;
 
 }

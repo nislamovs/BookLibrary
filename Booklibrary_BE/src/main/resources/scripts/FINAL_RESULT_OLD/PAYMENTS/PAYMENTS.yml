@@ -1,0 +1,181 @@
+payments:
+  - paymentId: 1
+    bookId: 
+    bookNumber: 6
+    debtId: 1
+    firstname: "Bronnie"
+    lastname: "Scurman"
+    bankAccount: "CZ24 1939 0807 9758 2753 4171"
+    otherInfo: 
+    amount: "40.27"
+    transactionNumber: "MphKy2yhc60n0lQwV"
+    paymentInfo: "PAYMENT #1; Donations"
+    paymentReceiptPhoto: 
+  - paymentId: 2
+    bookId: 
+    bookNumber: 11
+    debtId: 2
+    firstname: "Gordan"
+    lastname: "Yurevich"
+    bankAccount: "FR66 4190 5960 98YE XBDB WHR6 X52"
+    otherInfo: 
+    amount: "12.28"
+    transactionNumber: "fe051NzNbr6zAwgjX"
+    paymentInfo: "PAYMENT #2; I'm so stupid - just paid this invoice"
+    paymentReceiptPhoto: 
+  - paymentId: 3
+    bookId: 
+    bookNumber: 16
+    debtId: 3
+    firstname: "Brigitte"
+    lastname: "MacDonagh"
+    bankAccount: "AD45 5285 4021 06HJ M4Z1 ZWZO"
+    otherInfo: 
+    amount: "21.51"
+    transactionNumber: "Zy27DfHJ6ZUUOeeAy"
+    paymentInfo: "PAYMENT #3; I'm so stupid - just paid this invoice"
+    paymentReceiptPhoto: 
+  - paymentId: 4
+    bookId: 
+    bookNumber: 21
+    debtId: 4
+    firstname: "Daffi"
+    lastname: "Jillings"
+    bankAccount: "AL68 6192 3316 G7OA 94SY UNTJ QOXT"
+    otherInfo: 
+    amount: "77.36"
+    transactionNumber: "THFTvFMfytVF9yHnM"
+    paymentInfo: "PAYMENT #4; I'm so stupid - just paid this invoice"
+    paymentReceiptPhoto: 
+  - paymentId: 5
+    bookId: 
+    bookNumber: 26
+    debtId: 5
+    firstname: "Cyndi"
+    lastname: "Hoyles"
+    bankAccount: "BE30 8248 4830 2115"
+    otherInfo: 
+    amount: "66.72"
+    transactionNumber: "aeJ9iqNmFJhL5YJEW"
+    paymentInfo: "PAYMENT #5; "
+    paymentReceiptPhoto: 
+  - paymentId: 6
+    bookId: 
+    bookNumber: 31
+    debtId: 6
+    firstname: "Bellina"
+    lastname: "Bruckshaw"
+    bankAccount: "FR98 8880 3832 04Y9 O31J SCTI X90"
+    otherInfo: 
+    amount: "73.96"
+    transactionNumber: "4e6p58tqQNhfM8WoE"
+    paymentInfo: "PAYMENT #6; I don't want to have debts in this library :)"
+    paymentReceiptPhoto: 
+  - paymentId: 7
+    bookId: 
+    bookNumber: 36
+    debtId: 7
+    firstname: "Meridith"
+    lastname: "Groger"
+    bankAccount: "LI81 7747 5JLB BCIR W669 5"
+    otherInfo: 
+    amount: "63.90"
+    transactionNumber: "K1SadJJcv8alnq8EH"
+    paymentInfo: "PAYMENT #7; "
+    paymentReceiptPhoto: 
+  - paymentId: 8
+    bookId: 
+    bookNumber: 41
+    debtId: 8
+    firstname: "Helaina"
+    lastname: "Gorsse"
+    bankAccount: "FR86 8157 0070 8900 PW2N HQH6 494"
+    otherInfo: 
+    amount: "78.16"
+    transactionNumber: "Hb0gjt3XugIBWJNpe"
+    paymentInfo: "PAYMENT #8; Lost the book and tried to find it all this time long."
+    paymentReceiptPhoto: 
+  - paymentId: 9
+    bookId: 
+    bookNumber: 46
+    debtId: 9
+    firstname: "Tymon"
+    lastname: "Kelsow"
+    bankAccount: "IE98 MJHV 8423 8061 4686 70"
+    otherInfo: 
+    amount: "17.43"
+    transactionNumber: "CMF2NcftrLPQaR6SJ"
+    paymentInfo: "PAYMENT #9; Lost the book and tried to find it all this time long."
+    paymentReceiptPhoto: 
+  - paymentId: 10
+    bookId: 
+    bookNumber: 51
+    debtId: 10
+    firstname: "Janean"
+    lastname: "Jencey"
+    bankAccount: "IL26 6089 6301 7580 1053 425"
+    otherInfo: 
+    amount: "41.50"
+    transactionNumber: "pEKZtoOLO7XBWhzzV"
+    paymentInfo: "PAYMENT #10; Lost the book and tried to find it all this time long."
+    paymentReceiptPhoto: 
+  - paymentId: 11
+    bookId: 
+    bookNumber: 56
+    debtId: 11
+    firstname: "Sela"
+    lastname: "Decourcy"
+    bankAccount: "AD82 6954 6272 29AA TUTX MWWD"
+    otherInfo: 
+    amount: "32.00"
+    transactionNumber: "x1y3eepSoR7Mk6Xsg"
+    paymentInfo: "PAYMENT #11; I'm so stupid - just paid this invoice"
+    paymentReceiptPhoto: 
+  - paymentId: 12
+    bookId: 
+    bookNumber: 61
+    debtId: 12
+    firstname: "Carlyle"
+    lastname: "Barnewille"
+    bankAccount: "AL77 3775 2575 5ZNO X0Z2 IYHV 0RGZ"
+    otherInfo: 
+    amount: "17.67"
+    transactionNumber: "Lrfs8MiCesxBf2Nu3"
+    paymentInfo: "PAYMENT #12; "
+    paymentReceiptPhoto: 
+  - paymentId: 13
+    bookId: 
+    bookNumber: 66
+    debtId: 13
+    firstname: "Morey"
+    lastname: "Cregan"
+    bankAccount: "ME16 3713 0498 7381 8823 95"
+    otherInfo: 
+    amount: "46.89"
+    transactionNumber: "IOQsGc8GEIkGbfleX"
+    paymentInfo: "PAYMENT #13; "
+    paymentReceiptPhoto: 
+  - paymentId: 14
+    bookId: 
+    bookNumber: 71
+    debtId: 14
+    firstname: "Elnore"
+    lastname: "Knudsen"
+    bankAccount: "MK03 318W Z2CF YXEW Z96"
+    otherInfo: 
+    amount: "59.89"
+    transactionNumber: "4Yhp1QjsAUHAetkgh"
+    paymentInfo: "PAYMENT #14; "
+    paymentReceiptPhoto: 
+  - paymentId: 15
+    bookId: 
+    bookNumber: 76
+    debtId: 15
+    firstname: "Kirby"
+    lastname: "Kennelly"
+    bankAccount: "FR38 6051 6160 57NR PUIE 6ZGM 875"
+    otherInfo: 
+    amount: "69.36"
+    transactionNumber: "O9bZDyGfz6wNFE4sp"
+    paymentInfo: "PAYMENT #15; "
+    paymentReceiptPhoto: 

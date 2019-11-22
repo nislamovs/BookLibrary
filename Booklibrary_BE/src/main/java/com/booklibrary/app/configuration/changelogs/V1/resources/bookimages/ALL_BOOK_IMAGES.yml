@@ -1,0 +1,23 @@
+bookImageStorage:
+  - bookPhotoId: 1
+    isbn: "9780080869902"
+    bookPhoto:
+  - bookPhotoId: 2
+    isbn: "9780081002988"
+    bookPhoto:
+  - bookPhotoId: 3
+    isbn: "9780124115354"
+    bookPhoto:
+  - bookPhotoId: 4
+    isbn: "9780123751553"
+    bookPhoto:
+  - bookPhotoId: 5
+    isbn: "9780128140444"
+    bookPhoto:
+  - bookPhotoId: 6
+    isbn: "9780128131886"
+    bookPhoto:
+  - bookPhotoId: 7
+    isbn: "9780128114520"
+    bookPhoto:
+

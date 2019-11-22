@@ -2,7 +2,7 @@ package com.booklibrary.app.security;
 
 import com.auth0.jwt.JWT;
 import com.booklibrary.app.models.sql.User;
-import com.booklibrary.app.repository.sql.UserRepository;
+import com.booklibrary.app.repository.sql.stuff.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

@@ -8,7 +8,7 @@ import lombok.Data;
 public class Bankdata  {
 
     private String cardNumber;
-    private String bankAccount;
+    private String bankAccount;         //IBAN
     private String cvvCode;
     private String expiryDate;
     private String cardHolder;

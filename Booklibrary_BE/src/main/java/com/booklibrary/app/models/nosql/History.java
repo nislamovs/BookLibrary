@@ -1,30 +1,37 @@
 package com.booklibrary.app.models.nosql;
 
-import lombok.Builder;
-import lombok.Data;
+import com.booklibrary.app.models.nosql.audit.AbstractDocument;
+import io.github.kaiso.relmongo.annotation.CascadeType;
+import io.github.kaiso.relmongo.annotation.FetchType;
+import io.github.kaiso.relmongo.annotation.JoinProperty;
+import io.github.kaiso.relmongo.annotation.OneToOne;
+import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
+import java.util.Date;
 
+@EqualsAndHashCode(callSuper = true)
 @Builder
 @Data
-@Document(collection = "History")
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "history")
 public class History extends AbstractDocument {
 
-    private String userId;          //Link
+    private String historyId;
+    private String visitorId;
+    private String bookNumber;
 
-    private String bookId;          //link
+    private Date bookPickDate;
 
-    private String bookNumber;      //link
+    private Date bookExpectedReturnDate;
 
-    private LocalDate bookPickDate;
+    private Date bookActualReturnDate;
 
-    private LocalDate bookExpectedReturnDate;
+    private Boolean isFailedBookReturn;
 
-    private LocalDate bookActualReturnDate;
-
-    private boolean isFailedBookReturn;
-
+    @OneToOne(fetch= FetchType.EAGER, cascade= CascadeType.ALL, orphanRemoval = true)
+    @JoinProperty(name="debt")
     private Debt debt;
 
     private int feedback;

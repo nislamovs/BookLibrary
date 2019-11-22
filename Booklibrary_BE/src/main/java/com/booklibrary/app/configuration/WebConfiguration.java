@@ -10,9 +10,10 @@ import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactor
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class WebConfiguration {
+public class WebConfiguration implements WebMvcConfigurer {
 
     @Value(value = "${httpPort:8080}") int httpPort;
     @Value(value = "${server.port:8443}") int securedPort;
@@ -24,11 +25,13 @@ public class WebConfiguration {
         TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory() {
             @Override
             protected void postProcessContext(Context context) {
-                SecurityConstraint securityConstraint = new SecurityConstraint();
-                securityConstraint.setUserConstraint("CONFIDENTIAL");
                 SecurityCollection collection = new SecurityCollection();
                 collection.addPattern("/*");
+
+                SecurityConstraint securityConstraint = new SecurityConstraint();
+                securityConstraint.setUserConstraint("CONFIDENTIAL");
                 securityConstraint.addCollection(collection);
+
                 context.addConstraint(securityConstraint);
             }
         };
@@ -37,11 +40,6 @@ public class WebConfiguration {
         tomcat.addAdditionalTomcatConnectors(httpToHttpsRedirectConnector());
 
         return tomcat;
-    }
-
-    @Bean
-    public RemoteIpFilter remoteIpFilter() {
-        return new RemoteIpFilter();
     }
 
     /*
@@ -59,4 +57,16 @@ public class WebConfiguration {
         return connector;
     }
 
+
+    @Bean
+    public RemoteIpFilter remoteIpFilter() {
+        return new RemoteIpFilter();
+    }
+//
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//
+//        registry.addResourceHandler("images/**")
+//            .addResourceLocations("./classpath:static/images/");
+//    }
 }

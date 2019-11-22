@@ -1,26 +1,27 @@
 package com.booklibrary.app.models.nosql;
 
-import lombok.Builder;
-import lombok.Data;
+import com.booklibrary.app.models.nosql.audit.AbstractDocument;
+import lombok.*;
 import org.javamoney.moneta.Money;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.List;
-
+@EqualsAndHashCode(callSuper = true)
 @Builder
 @Data
-@Document(collection = "PenaltyPlans")
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "penaltyPlans")
 public class PenaltyPlan extends AbstractDocument {
 
-    private String planId;
+    private String penaltyId;
 
-    private PenaltyType name;
+    private PenaltyType penaltyType;
 
-    private Money basicPenalty;             //just because You were late
+    private Money basicPenalty;                 //just because You were late
 
     private Money penaltyPerDay;
 
-    private int multiplierCoefficient;      //increases every week
+    private double multiplierCoefficient;      //increases penalty every week
 
     private enum PenaltyType {LITE, MEDIUM, HARD, CRUEL}
 }

@@ -9,20 +9,14 @@ application:
 spring:
   profiles:
     active: dev
-#  jackson:
-#    serialization:
-#      INDENT_OUTPUT: true
-
-logging.level.org.hibernate.SQL: DEBUG
-logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-
-logging.level.org.springframework.boot.autoconfigure.mongo.embedded: INFO
-logging.level.org.mongodb: INFO
-
-logging.level.ROOT: INFO
-logging.level.org.springframework.orm.jpa: DEBUG
-logging.level.org.springframework.transaction: TRACE
-logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+  http:
+    log-request-details: true
+  jpa:
+    properties:
+      format_sql: true
+      org.hibernate.envers.default_schema: audit
+#  main:
+#    allow-bean-definition-overriding: true
 
 management:
   endpoints:
@@ -32,3 +26,40 @@ management:
         max-age: 3600s
         allowed-origins: '*'
         allow-credentials: true
+
+#LOGGING
+#TOMCAT LOGGING
+server.tomcat.accesslog.enabled: true
+logging.level.org.apache.tomcat: DEBUG
+logging.level.org.apache.catalina: DEBUG
+
+#HIBERNATE SQL REQUESTS
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+#MONGODB QUERIES
+logging.level.org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+logging.level.org.mongodb: DEBUG
+
+#EMBEDDED MONGO
+logging.level.org.springframework.boot.autoconfigure.mongo.embedded: INFO
+
+#LIQUIBASE
+logging.level.liquibase: INFO
+
+#JPA TRANSACTIONS
+logging.level.org.springframework.orm.jpa: DEBUG
+logging.level.org.springframework.transaction: DEBUG
+
+#MONGOCK
+logging.level.com.github.cloudyrock.mongock: DEBUG
+
+#OTHER
+logging.level.ROOT: DEBUG
+#REQUESTS / RESPONSES
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
+logging.level.org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener: OFF
+logging.level.org.springframework.beans.factory: OFF
+logging.level.springfox.documentation: OFF
+logging.level.org.springframework.boot.liquibase.SpringPackageScanClassResolver: OFF

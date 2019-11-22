@@ -1,6 +1,6 @@
 gradle structure/dependencies                                                                                   OK
 project directory structure                                                                                     OK
-declarate CORS properties in yml file                                                                           OK
+declare CORS properties in yml file                                                                             OK
 Create tomcat redirect from http to https                                                                       OK
  - put hardcoded consts in yml or separate vars                                                                 OK
 Generate certificates                                                                                           OK
@@ -11,95 +11,204 @@ Write doc for all  [check Swagger newer versions]                               
 separate restricted / public api                                                                                --
 
 Logging (use logback/groovy)                                                                                    OK
-incoming request logging                                                                                        OK
+add principal to logging                                                                                        --
+mask passwords and credit cards
+     --  Logs                                                                                                   --
+     --  SQL DB                                                                                                 --
+     --  NOSQL DB                                                                                               --
+
 logging in separate files for:
-     -- transactions,
-     -- incoming requests,                                                                                      OK
+     -- transactions,                                                                                           OK
+     -- incoming requests,                                                                                      OK [search for better solutions]
+     -- tomcat logs                                                                                             OK
+     -- hibernate calls,                                                                                        OK
+     -- mongo requests                                                                                          OK
+     -- exceptions, etc                                                                                         OK
 
-     -- hibernate calls,
-     -- mongo requests
-     -- exceptions, etc
+     -- Mongock autopopup                                                                                       OK
+     -- liquibase autopopup                                                                                     OK
 
-     -- Mongock autopopup
-     -- liquibase autopopup
+     -- requests/responses content                                                                              --
+     -- filter out unnecessary log info                                                                         --
 
 Add H2                                                                                                          OK
 use liquibase                                                                                                   OK
 Use MongoDB + Mongock for population                                                                            OK
-MongoAuditing                                                                                                   --
 
-Fill h2 database with data
-Fill mongo database with data [100 books, 50 users]
+Fill h2 database with data                                                                                      --
+Fill mongo database with data [100 books, 50 users]                                                             --
 
-Use orika mapper for DAO/DTO mapping
-JPA Audit (who created, when created, who modified, when modified)
-Use hibernate entity manager with complex request implementation
-Create stored procedure in mongo and launch it with spring
-Create stored procedure in h2 and launch it with spring
-Transactions
+Use orika mapper for DAO/DTO mapping                                                                            OK
 
-@Embedded and @Embeddable annotations usage
-Use configProperties annotation  where possible
-Make custom annotation (ISBN)
+JPA Audit (who created, when created, who modified, when modified)                                              OK
+JPA Revision                                                                                                    OK
+MongoAuditing                                                                                                   OK
+Mongo Revision (check Javers)                                                                                   --
 
-ExceptionHandler
-Create controllers
+Use hibernate entity manager with complex request implementation                                                --
+Make custom mongo requests                                                                                      --
 
-    - add book
-    - get book by id
-    - change book info
-    - delete book
-    - get book by unique id
+Create stored procedure (stored script) in mongo and launch it with spring                                      --
+Create stored procedure in h2 and launch it with spring                                                         --
 
-    - add new reader
-    - get reader by id
-    - change reader info
-    - delete reader
+Transactions                                                                                                    --
 
-make some kind of reports with complex requests
+@Embedded and @Embeddable annotations usage                                                                     --
+Use configProperties annotation  where possible                                                                 OK
+Make custom annotation (ISBN)                                                                                   --
 
-Integration tests
-Unit tests
-Test coverage
-Testing mongo stuff
-Use testcontainers
-Use Parametrised tests
+Create DTO's                                                                                                    --
+Create validation for DTO's                                                                                     --
+Create DAO's                                                                                                    --
+Create validation for DAO's                                                                                     --
 
-Test coverage - show in readme.md (coverity badge)
-Build badge - show in readme.md (travis)
-Use docker in travis
+--------------------------------------------------------------------
+
+Create repositories                                                                                             OK
+Create services                                                                                                 OK
+Use pagination                                                                                                  OK
+ExceptionHandler                                                                                                OK
+Create controllers                                                                                              --
+Create exceptions                                                                                               --
+
+    BookController
+        - get book data by id                                                                                   OK
+        - get book data by number                                                                               OK
+        - get book data by isbn                                                                                 OK
+
+        - get page of book datas                                                                                OK
+        - get page of book datas by author         [ optional sort by popularity ]                              OK
+        - get page of book datas by category       [ optional sort by popularity ]                              OK
+        - get page of book datas by publisher      [ optional sort by popularity ]                              OK
+        - get page of book datas by publishedDate  [ optional sort by popularity ]                              OK
+        - get page of book datas by title          [ optional sort by popularity ]                              OK
+
+        - register new book                                                                                     OK
+        - change book info                                                                                      OK
+        - delete book  by isbn                                                                                  OK
+        - delete book sample by booknumber                                                                      OK
+
+    BookStorageController
+        - get books info by id                                                                                  OK
+        - get book info by number                                                                               OK
+        - get books info by isbn                                                                                OK
+
+        - get page of books                                                                                     OK
+        - get page of books by author                                                                           OK
+        - get page of books by category                                                                         OK
+        - get page of books by status                                                                           OK
+        - get page of books by visitorId                                                                        OK
+
+        - Add book sample                                                                                       OK
+        - change book sample info                                                                               OK
+        - delete books sample by isbn                                                                           OK
+        - delete book sample by booknumber                                                                      OK
+
+    DebtController
+        - get all debts                                                                                         OK
+        - get page of debts                                                                                     OK
+        - register new debt                                                                                     OK
+        - get debt by id                                                                                        OK
+        - update debt status                                                                                    OK
+        - delete debt                                                                                           OK
+
+    HistoryController
+
+        - get all history records                                                                               OK
+        - get page of history records                                                                           OK
+        - get history by history id                                                                             OK
+        - get history by visitor name                                                                           OK
+        - get history by book number                                                                            OK
+        - get history by book id                                                                                OK
+        - add history record                                                                                    OK
+        - update history by history id                                                                          OK
+        - delete history by history id                                                                          OK
+
+    PaymentController
+        - get all payments                                                                                      OK
+        - get page of payments                                                                                  OK
+        - get payment by payment id                                                                             OK
+        - get all payments by visitor id                                                                        OK
+        - get all payments by cardholder                                                                        OK
+        - make payment                                                                                          OK
+        - update payment                                                                                        OK
+        - delete payment                                                                                        OK
+
+    PenaltyController
+        - add penalty policy                                                                                    OK
+        - edit penalty policy                                                                                   OK
+        - delete penalty policy                                                                                 OK
+        - get policy by id                                                                                      OK
+        - get all policies                                                                                      OK
+
+    VisitorController
+        - add new visitor                                                                                       OK
+        - get visitor by id                                                                                     OK
+        - get visitor by cardholder                                                                             --
+        - get visitor by firstname and lastname                                                                 --
+        - change visitor info                                                                                   OK
+        - delete visitor                                                                                        OK
+        - get all visitors                                                                                      OK
+        - get page of visitors                                                                                  OK
+
+    ReportController - Prepare statistics data for graph generation
+        -                                                                                                       --
+
+-------------------------------------------------------------------------------------
+Integration tests                                                                                               --
+Unit tests                                                                                                      --
+Test coverage                                                                                                   --
+Testing mongo stuff                                                                                             --
+Use testcontainers                                                                                              --
+Use Parametrised tests                                                                                          --
+
+Test coverage - show in readme.md (coverity badge)                                                              --
+Build badge - show in readme.md (travis)                                                                        --
+Use docker in travis                                                                                            --
 use .editorconfig                                                                                               OK
 
-Use spring email - use trapmail
-Use spring slack
+Use spring email - use trapmail                                                                                 --
+Use spring slack                                                                                                --
 
 use spring security (token based auth + jwt)                                                                    OK
+Create Roles/authorities                                                                                        --
+Use @GlobalWebSecurity                                                                                          --
+Create certificates for jwt                                                                                     --
 
-Use HAL browser
-Use Spring Admin + secure it
-Use Spring actuator + secure it
-Use Money data type                                                                                             OK
-Use Enums, Enumset                                                                                              --
+Use HAL browser                                                                                                 --
+Use Spring Admin + secure it                                                                                    --
+Use Spring actuator + secure it                                                                                 --
+Use Money data type
+    - use in mongoDB                                                                                            OK
+    - use in SQL DB                                                                                             --
 
-Use annotations for date, password, age, bank data validation
+Use Enums, Enumset,                                                                                             --
+Use set for enums                                                                                               --
+
+Use annotations for date, password, age, bank data validation                                                   --
 Use Lombok
-    - val, var
-    - sneakythrows
-    - requiredArgsConstructor
-    - exclude lombok from tests
+    - val, var                                                                                                  --
+    - sneakythrows                                                                                              --
+    - requiredArgsConstructor                                                                                   OK
+    - exclude lombok from tests                                                                                 --
 
 Docker, DockerCompose [gradle / bash scripts]
-- BookLibrary BE
-- BookLibrary FE
-- MongoDB
-- Postgres
+Add:
+    - BookLibrary BE                                                                                            --
+    - BookLibrary FE                                                                                            --
+    - MongoDB                                                                                                   --
+    - Postgres                                                                                                  --
+    - ELK maybe                                                                                                 --
 
 Add documentation to README.MD                                                                                  OK
 Write Tech stack                                                                                                OK
 
-Design databases
-- sql
 
+Use schedulers for launching reports                                                                            --
+
+Design databases
+- sql /* Use sql db for passwords and reports */
+      /* make some kind of reports with complex requests */
 
 - nosql
 
@@ -113,13 +222,34 @@ Payments document - penalties                                                   
 Penalty plan                                                                                                    OK
 Abstract entity for creation date and modification date                                                         OK
 
-Create validation for document entities
-Create aggregations
+Create validation for document entities                                                                         --
+Create aggregations                                                                                             --
 
 --------------------------------------------------------------------
+                                BUGS
+--------------------------------------------------------------------
+-- logback-access doesn't work properly with tomcat port redirect                           logback-access removed
+-- customConverters deprecated                                                                                  OK
+-- orika mapper doesnt work (class cast exception)                                                              OK
+-- Springdata bug - document could not be saved with orphans/embedded documents and audit fields                --
 
-Create repositories
-Use pagination
+
+--------------------------------------------------------------------
+                        Possible improvements
+--------------------------------------------------------------------
+
+-- check log4jdbc library for db requests logging
+-- Usage of gridfs for file storage
+-- Next time better use MongoTrek for db migration
+
+-- If use MongoCK, better to generate all requests to 3rd party sources
+    (autogenerated data) in Java code instead of separate bash/python
+    scripts.
+
+-- Use Hystrix and Feign to download books data via google API
+    (maybe even move this functionality to separate microservice)
+
+-- Think about "process status" endpoints
 
 
 --------------------------------------------------------------------

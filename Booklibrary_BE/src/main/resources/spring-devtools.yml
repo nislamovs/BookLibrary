@@ -1,0 +1,2 @@
+#Workaround for orika and springboot devtools [Thanks to https://stackoverflow.com/questions/33324944/orika-classcastexception-in-spring-boot-webapp]
+restart.include.orika: /orika-core.*\.jar

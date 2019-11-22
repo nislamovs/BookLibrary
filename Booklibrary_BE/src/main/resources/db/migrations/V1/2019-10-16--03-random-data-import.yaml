@@ -1,0 +1,94 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: SA
+  - changeSet:
+      id: 1
+      author: Nizami Islamovs
+      comment: "Create random data"
+      changes:
+        - insert:
+            tableName: random
+            columns:
+              - column:
+                  name: id
+                  value: "1"
+              - column:
+                  name: firstname
+                  value: "dan"
+              - column:
+                  name: lastname
+                  value: "smith"
+              - column:
+                  name: email
+                  value: "asdasd@gfhgfh.lv"
+              - column:
+                  name: created_Date
+                  valueDate: "now()"
+              - column:
+                  name: created_By
+                  value: "Nizami Islamovs"
+              - column:
+                  name: last_Modified_Date
+                  valueDate: "now()"
+              - column:
+                  name: last_Modified_By
+                  value: "Nizami Islamovs"
+        - insert:
+            tableName: random
+            columns:
+              - column:
+                  name: id
+                  value: "2"
+              - column:
+                  name: firstname
+                  value: "admin"
+              - column:
+                  name: lastname
+                  value: "smith"
+              - column:
+                  name: email
+                  value: "asdasd@gfhbnmmmnmgfh.lv"
+              - column:
+                  name: created_Date
+                  valueDate: "now()"
+              - column:
+                  name: created_By
+                  value: "Nizami Islamovs"
+              - column:
+                  name: last_Modified_Date
+                  valueDate: "now()"
+              - column:
+                  name: last_Modified_By
+                  value: "Nizami Islamovs"
+        - insert:
+            tableName: random
+            columns:
+              - column:
+                  name: id
+                  value: "3"
+              - column:
+                  name: firstname
+                  value: "manager"
+              - column:
+                  name: lastname
+                  value: "smith"
+              - column:
+                  name: email
+                  value: "asdsdfdfsdfasd@gfhgfh.lv"
+              - column:
+                  name: created_Date
+                  valueDate: "now()"
+              - column:
+                  name: created_By
+                  value: "Nizami Islamovs"
+              - column:
+                  name: last_Modified_Date
+                  valueDate: "now()"
+              - column:
+                  name: last_Modified_By
+                  value: "Nizami Islamovs"
+      rollback:
+        - delete:
+            tableName: user
+            where: firstname in ('dan', 'admin', 'manager')
