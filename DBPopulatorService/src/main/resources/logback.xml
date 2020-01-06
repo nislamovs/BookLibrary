@@ -1,0 +1,101 @@
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <jmxConfigurator/>
+    <logger name="org.springframework.web" level="DEBUG"/>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/DBPopupApp.log</file>
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS", Europe/Helsinki} %-5p [%t] %c - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <param name="FileNamePattern" value="logs/DBPopupApp_%d{dd-MM-yyyy}-%i.log"/>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="FILE-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE"/>
+        <includeCallerData>true</includeCallerData>
+        <queueSize>2000</queueSize>
+        <!-- do not lose warn, info or trace events if queue gets full -->
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS", Europe/Helsinki} %-5p [%t] %c - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    //======================================================================//-->
+    <!--    //                      REQUESTS / RESPONSES                            //-->
+    <!--    //======================================================================//-->
+
+    <appender name="REQUESTS_RESPONSES_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/RequestsResponses.log</file>
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS", Europe/Helsinki} %-5p [%t] %c - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <param name="FileNamePattern" value="logs/RequestsResponsesLogs/RequestsResponses_%d{dd-MM-yyyy}-%i.log"/>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="REQUESTS_RESPONSES_ASYNC_LOG" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="REQUESTS_RESPONSES_LOG"/>
+        <includeCallerData>true</includeCallerData>
+        <queueSize>2000</queueSize>
+        <!-- do not lose warn, info or trace events if queue gets full -->
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+
+    <logger name="com.dbpopulator.app.clients.GoogleBookApiClient" level="DEBUG"><appender-ref ref="REQUESTS_RESPONSES_ASYNC_LOG" /></logger>
+    <logger name="com.dbpopulator.app.clients.GoogleBookImageRetrieverClient" level="DEBUG"><appender-ref ref="REQUESTS_RESPONSES_ASYNC_LOG" /></logger>
+
+<!--    //===================================================================//-->
+<!--    //                      MONGODB REQUESTS                             //-->
+<!--    //===================================================================//-->
+
+    <appender name="MONGODB_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/MongoDBRequests.log</file>
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd HH:mm:ss,SSS", Europe/Helsinki} %-5p [%t] %c - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <param name="FileNamePattern" value="logs/MongoDBRequests/RequestsResponses_%d{dd-MM-yyyy}-%i.log"/>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="MONGODB_ASYNC_LOG" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="MONGODB_LOG"/>
+        <includeCallerData>true</includeCallerData>
+        <queueSize>2000</queueSize>
+        <!-- do not lose warn, info or trace events if queue gets full -->
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+
+    <logger name="org.springframework.data.mongodb.core.MongoTemplate" level="DEBUG"><appender-ref ref="MONGODB_ASYNC_LOG" /></logger>
+
+<!--    &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+    <root level="INFO">
+        <appender-ref ref="FILE-ASYNC"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <logger name="DBPopupApp" level="DEBUG"/>
+
+</configuration>

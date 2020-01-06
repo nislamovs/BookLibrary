@@ -1,0 +1,96 @@
+migrations:
+    - version: 1.0.0
+      description: initialization - create bookData schema
+      author: admin
+      command: { create: "bookData" }
+
+    - version: 1.0.1
+      description: initialization - create bookStorage schema
+      author: admin
+      command: { create: "bookStorage" }
+
+    - version: 1.0.2
+      description: initialization - create bookPhotos schema
+      author: admin
+      command: { create: "bookPhotos" }
+
+    - version: 1.0.3
+      description: initialization - create payments schema
+      author: admin
+      command: { create: "payments" }
+
+    - version: 1.0.4
+      description: initialization - create debt schema
+      author: admin
+      command: { create: "debt" }
+
+    - version: 1.0.5
+      description: initialization - create history schema
+      author: admin
+      command: { create: "history" }
+
+    - version: 1.0.6
+      description: initialization - create penaltyPlans schema
+      author: admin
+      command: { create: "penaltyPlans" }
+
+    - version: 1.0.7
+      description: initialization - create visitors schema
+      author: admin
+      command: { create: "visitors" }
+
+    - version: 1.1.0
+      description: initialization - populate processing status data
+      author: admin
+      command: {
+        insert: "processing_status",
+        documents: [
+            { processId: "1", tableName: "bookData",        isProcessed: false, isPreprocessed: false },
+            { processId: "2", tableName: "bookStorage",     isProcessed: false, isPreprocessed: false },
+            { processId: "3", tableName: "bookPhoto",       isProcessed: false, isPreprocessed: false },
+            { processId: "4", tableName: "debts",           isProcessed: false, isPreprocessed: true },
+            { processId: "5", tableName: "payments",        isProcessed: false, isPreprocessed: true },
+            { processId: "6", tableName: "history",         isProcessed: false, isPreprocessed: true },
+            { processId: "7", tableName: "penaltyPlans",    isProcessed: false, isPreprocessed: true },
+            { processId: "8", tableName: "visitors",        isProcessed: false, isPreprocessed: true }
+        ]
+      }
+    - version: 1.1.1
+      description: update processing - add modification date - update many
+      author: admin
+      command: {
+        update: "processing_status",
+        updates: [
+        {
+          q: {},
+          u: {
+            $currentDate: {
+              "createdDate": { $type: "date" },
+              "lastModifiedDate": { $type: "date"}
+            },
+            $set: {"version": 1}
+          },
+          multi: true
+        }
+        ]
+      }
+    - version: 1.1.2
+      description: update processing - add createdBy and modifiedBy fields
+      author: admin
+      command: {
+        update: "processing_status",
+        updates: [
+        {
+          q: { },
+          u: {
+            $currentDate: { modificationDate: true },
+            $set: {
+              createdBy: "admin",
+              modifiedBy: "admin"
+            },
+            $inc: { version: 1 }
+          },
+          multi: true
+        }
+        ]
+      }

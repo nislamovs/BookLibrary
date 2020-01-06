@@ -1,0 +1,85 @@
+server:
+  port: 8585
+
+application:
+  developer: Nizami Islamovs
+  version: v 1.0.0
+  deploymentdate: 2018-09-11 21:15:29
+  support.email: nizamiislamovs@gmail.com
+  description: Book library db populator mcs
+  title: Book library db populator mcs
+
+  property:
+    mongotrek:
+      script:
+        path: "migration/mongotrek.yml"
+      changelog:
+        collection:
+          name: "mongotrek_changelog"
+alert:
+  email:
+    from: "DBPopulatorService.do-not-reply@gmail.com"
+    reply.to: <do-not-reply>
+    to: nizami.islamovs.s@gmail.com
+    subject.prefix: BookLibrary_DBPopulatorService failure @ dev
+
+spring:
+#  datasource:
+#    platform: h2
+#    url: jdbc:h2:mem:test;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=TRUE
+#    username: sa
+#    password:
+#    driverClassName: org.h2.Driver
+#    hikari:
+#      maximum-pool-size: 10
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: ${MAILTRAP_USERNAME}
+    password: ${MAILTRAP_PASSWORD}
+    properties: 
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+          starttls:
+            enable: true
+
+  http:
+    log-request-details: true
+  jpa:
+    properties:
+      format_sql: true
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      host: mongodb
+#      host: localhost
+      port: 27027
+      database: booklibrary
+      uri: mongodb://${spring.data.mongodb.host}:${spring.data.mongodb.port}/
+      auto-index-creation: false
+
+slack:
+  url: ${SLACK_URL}
+
+management:
+  endpoints:
+    web:
+      base-path: "/actuator"
+      exposure:
+        include: "*"
+
+logging.level.com.dbpopulator.app.clients.GoogleBookApiClient: DEBUG
+logging.level.com.dbpopulator.app.clients.GoogleBookImageRetrieverClient: DEBUG
+
+#MONGODB QUERIES
+logging.level.org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+logging.level.org.mongodb: DEBUG

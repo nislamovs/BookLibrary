@@ -1,0 +1,66 @@
+2019-12-29 03:22:48,808 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] ---> GET https://www.googleapis.com/books/v1/volumes?q=isbn:9780444419200 HTTP/1.1
+2019-12-29 03:22:48,808 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] ---> END HTTP (0-byte body)
+2019-12-29 03:22:49,032 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] <--- HTTP/1.1 403 Forbidden (224ms)
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] accept-ranges: none
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] cache-control: private, max-age=0
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] content-type: application/json; charset=UTF-8
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] date: Sun, 29 Dec 2019 01:22:49 GMT
+2019-12-29 03:22:49,033 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] expires: Sun, 29 Dec 2019 01:22:49 GMT
+2019-12-29 03:22:49,034 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] server: GSE
+2019-12-29 03:22:49,034 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] transfer-encoding: chunked
+2019-12-29 03:22:49,034 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] vary: Origin,Accept-Encoding
+2019-12-29 03:22:49,034 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] vary: X-Origin
+2019-12-29 03:22:49,035 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-content-type-options: nosniff
+2019-12-29 03:22:49,035 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-frame-options: SAMEORIGIN
+2019-12-29 03:22:49,035 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-xss-protection: 1; mode=block
+2019-12-29 03:22:49,035 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] 
+2019-12-29 03:22:49,036 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] {
+ "error": {
+  "errors": [
+   {
+    "domain": "usageLimits",
+    "reason": "userRateLimitExceededUnreg",
+    "message": "User Rate Limit Exceeded. Please sign up",
+    "extendedHelp": "https://code.google.com/apis/console"
+   }
+  ],
+  "code": 403,
+  "message": "User Rate Limit Exceeded. Please sign up"
+ }
+}
+
+2019-12-29 03:22:49,037 DEBUG [http-nio-8585-exec-1] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] <--- END HTTP (310-byte body)
+2019-12-29 03:23:11,200 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] ---> GET https://www.googleapis.com/books/v1/volumes?q=isbn:9780444419200 HTTP/1.1
+2019-12-29 03:23:11,201 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] ---> END HTTP (0-byte body)
+2019-12-29 03:23:11,373 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] <--- HTTP/1.1 403 Forbidden (171ms)
+2019-12-29 03:23:11,374 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] accept-ranges: none
+2019-12-29 03:23:11,375 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+2019-12-29 03:23:11,375 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] cache-control: private, max-age=0
+2019-12-29 03:23:11,376 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] content-type: application/json; charset=UTF-8
+2019-12-29 03:23:11,377 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] date: Sun, 29 Dec 2019 01:23:11 GMT
+2019-12-29 03:23:11,377 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] expires: Sun, 29 Dec 2019 01:23:11 GMT
+2019-12-29 03:23:11,378 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] server: GSE
+2019-12-29 03:23:11,379 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] transfer-encoding: chunked
+2019-12-29 03:23:11,380 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] vary: Origin,Accept-Encoding
+2019-12-29 03:23:11,381 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] vary: X-Origin
+2019-12-29 03:23:11,382 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-content-type-options: nosniff
+2019-12-29 03:23:11,383 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-frame-options: SAMEORIGIN
+2019-12-29 03:23:11,384 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] x-xss-protection: 1; mode=block
+2019-12-29 03:23:11,385 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] 
+2019-12-29 03:23:11,387 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] {
+ "error": {
+  "errors": [
+   {
+    "domain": "usageLimits",
+    "reason": "userRateLimitExceededUnreg",
+    "message": "User Rate Limit Exceeded. Please sign up",
+    "extendedHelp": "https://code.google.com/apis/console"
+   }
+  ],
+  "code": 403,
+  "message": "User Rate Limit Exceeded. Please sign up"
+ }
+}
+
+2019-12-29 03:23:11,388 DEBUG [http-nio-8585-exec-2] com.dbpopulator.app.clients.GoogleBookApiClient - [GoogleBookApiClient#getBookData] <--- END HTTP (310-byte body)

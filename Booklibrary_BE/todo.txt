@@ -167,8 +167,8 @@ Build badge - show in readme.md (travis)                                        
 Use docker in travis                                                                                            --
 use .editorconfig                                                                                               OK
 
-Use spring email - use trapmail                                                                                 --
-Use spring slack                                                                                                --
+Use spring email - use trapmail                                                                                 OK
+Use spring slack                                                                                                OK
 
 use spring security (token based auth + jwt)                                                                    OK
 Create Roles/authorities                                                                                        --
@@ -178,6 +178,7 @@ Create certificates for jwt                                                     
 Use HAL browser                                                                                                 --
 Use Spring Admin + secure it                                                                                    --
 Use Spring actuator + secure it                                                                                 --
+Create whitelist array with url paths in security filter                                                        --
 Use Money data type
     - use in mongoDB                                                                                            OK
     - use in SQL DB                                                                                             --
@@ -230,8 +231,9 @@ Create aggregations                                                             
 --------------------------------------------------------------------
 -- logback-access doesn't work properly with tomcat port redirect                           logback-access removed
 -- customConverters deprecated                                                                                  OK
--- orika mapper doesnt work (class cast exception)                                                              OK
+-- orika mapper doesn't work (class cast exception)                                                             OK
 -- Springdata bug - document could not be saved with orphans/embedded documents and audit fields                --
+//refusing to use AuditingEntityListener ?
 
 
 --------------------------------------------------------------------
@@ -250,6 +252,11 @@ Create aggregations                                                             
     (maybe even move this functionality to separate microservice)
 
 -- Think about "process status" endpoints
+
+
+--------------------------------------------------------------------
+                  Encountered bugs / unclearances
+--------------------------------------------------------------------
 
 
 --------------------------------------------------------------------

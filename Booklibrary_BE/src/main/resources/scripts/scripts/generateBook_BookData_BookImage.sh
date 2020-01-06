@@ -111,7 +111,8 @@ for ((idx=0; idx<${#CATALOGS_ISBNS[@]}; idx++)); do
 
     #    LINK="https://www.googleapis.com/books/v1/volumes?&q=isbn:"$ISBN"&callback=ProcessGBSBookInfo&key="$APIKEY
         LINK="https://www.googleapis.com/books/v1/volumes?&q=isbn:"$ISBN"&callback=ProcessGBSBookInfo"
-
+#        https://www.googleapis.com/books/v1/volumes?q=isbn:9780128006382&callback=ProcessGBSBookInfo
+q
         RESPONSE=$(curl $LINK -H "Content-type: application/json" 2>/dev/null \
         | grep -v "// API callback" | grep -v "ProcessGBSBookInfo" \
         | sed '$ d' | sed '1s/^/{\n/')
