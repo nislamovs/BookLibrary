@@ -1,52 +1,52 @@
 version: '3'
 
 networks:
-  backend:
-    #    driver: bridge
-    ipam:
-      config:
-        - subnet: 172.24.0.0/24
-#          gateway: 172.24.0.1
+  front-tier:
+  back-tier:
+    driver: bridge
+
 services:
   mongodb:
     container_name: "mongodb"
     image: mongo:latest
-    hostname: localhost
+    hostname: mongodb
     command: mongod --port 27027
-    restart: always
-    ports:
-      - 27027:27027
-    networks:
-      backend:
-        ipv4_address: 172.24.0.2
-
-  prometheus:
-    container_name: "prometheus"
-    image: prom/prometheus
-    restart: always
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-    ports:
-      - 9090:9090   #  <container_port> : <external_port>
-    networks:
-      backend:
-        ipv4_address: 172.24.0.3
-
-  grafana:
-    container_name: "grafana"
-    image: grafana/grafana
+      - ./volumes/dumps:/backup
     restart: always
-    volumes:
-      - /var/lib/grafana
-    depends_on:
-      - prometheus
+    expose:
+      - "22"
     ports:
-      - 3000:3000
+      - "27027:27027"
     networks:
-      backend:
-        ipv4_address: 172.24.0.4
+      - front-tier
+
+#  prometheus:
+#    container_name: "prometheus"
+#    image: prom/prometheus
+#    restart: always
+#    volumes:
+#      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+#    command:
+#      - '--config.file=/etc/prometheus/prometheus.yml'
+#    ports:
+#      - "9090:9090"   #  <container_port> : <external_port>
+#    networks:
+#      - front-tier
+#      - back-tier
+#
+#  grafana:
+#    container_name: "grafana"
+#    image: grafana/grafana
+#    restart: always
+#    volumes:
+#      - /var/lib/grafana
+#    depends_on:
+#      - prometheus
+#    ports:
+#      - "3000:3000"
+#    networks:
+#      - back-tier
 
   dbpopulator:
     container_name: "dbpopulatorservice"
@@ -55,12 +55,14 @@ services:
       context: ./
 #      context: DBPopulatorService
       dockerfile: Dockerfile
+    volumes:
+      - ./volumes/dumps/dbpopulator:/opt/backup/
     ports:
-      - 8585:8585
-      - 8000:8000     # debugging
+      - "8585:8585"
+      - "8000:8000"     # debugging
     expose:
-      - 8585
-      - 8000          # debugging
+      - "8585"
+      - "8000"          # debugging
     environment:
       - SLACK_URL=${SLACK_URL}
       - MAILTRAP_USERNAME=${MAILTRAP_USERNAME}
@@ -68,32 +70,57 @@ services:
 #    depends_on:
 #      - mongodb
     networks:
-      backend:
-        ipv4_address: 172.24.0.5
+      - front-tier
+
+  sftp:
+    image: writl/sftp
+    container_name: "sftp"
+    restart: always
+    expose:
+      - "22"
+    ports:
+      - "2222:22"
+    volumes:
+      - ./volumes/dumps/ftp:/data/dumps
+    networks:
+      - front-tier
+
+############################## ELK STACK ##########################################
 
 #  elasticsearch:
 #    build: elk/elasticsearch/
 #    container_name: elasticsearch
+#    environment:
+#      - bootstrap.memory_lock=true
+#      - discovery.type=single-node
+#      - cluster.name=docker-cluster
+#      - network.host=0.0.0.0
+##      - es.path.conf=/etc/elasticsearch
+#      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+#    ulimits:
+#      memlock:
+#        soft: -1
+#        hard: -1
 #    ports:
 #      - 9200:9200
 #      - 9300:9300
-#    environment:
-#      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+#    expose:
+#      - "9200"
 #    networks:
-#      backend:
-#        ipv4_address: 172.24.0.6
+#      - back-tier
 #
 #  logstash:
 #    build: elk/logstash/
 #    container_name: logstash
-#    command: -f /etc/logstash/conf.d/
 #    volumes:
 #      - ./elk/logstash/config:/etc/logstash/conf.d
+#    command: -f /etc/logstash/conf.d/
 #    ports:
+#      - 9600:9600
 #      - 9999:9999
 #    networks:
-#      backend:
-#        ipv4_address: 172.24.0.7
+#      - front-tier
+#      - back-tier
 #
 #  kibana:
 #    build: elk/kibana/
@@ -103,5 +130,4 @@ services:
 #    ports:
 #      - 5601:5601
 #    networks:
-#      backend:
-#        ipv4_address: 172.24.0.8
+#      - back-tier

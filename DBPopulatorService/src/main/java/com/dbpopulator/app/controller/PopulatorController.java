@@ -1,12 +1,7 @@
 package com.dbpopulator.app.controller;
 
 
-import com.dbpopulator.app.clients.GoogleBookApiClient;
-import com.dbpopulator.app.domain.exceptions.ServiceNotFoundException;
-import com.dbpopulator.app.domain.exceptions.TableAlreadyProcessedException;
-import com.dbpopulator.app.domain.exceptions.TableNotPreprocessedException;
 import com.dbpopulator.app.services.*;
-import com.google.common.collect.ImmutableList;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -17,19 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import static com.dbpopulator.app.services.ProcessingControlService.*;
+import static com.dbpopulator.app.services.ProcessingControlService.TablesList;
 import static com.dbpopulator.app.services.messaging.SlackService.TIMESTAMP;
-import static java.lang.String.format;
 import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
 @RequiredArgsConstructor
-@Slf4j @Validated
+@Slf4j
+@Validated
 public class PopulatorController {
 
     private final ProcessingControlService processingControlService;
@@ -46,9 +39,9 @@ public class PopulatorController {
 
         processingControlService.validate(serviceToTrigger);
 
-        if (    ProcessingControlService.TablesList.BOOKDATA.getTableName().equalsIgnoreCase(serviceToTrigger)
-             || ProcessingControlService.TablesList.BOOKSTORAGE.getTableName().equalsIgnoreCase(serviceToTrigger)
-             || ProcessingControlService.TablesList.BOOKPHOTO.getTableName().equalsIgnoreCase(serviceToTrigger)) {
+        if (ProcessingControlService.TablesList.BOOKDATA.getTableName().equalsIgnoreCase(serviceToTrigger)
+                || ProcessingControlService.TablesList.BOOKSTORAGE.getTableName().equalsIgnoreCase(serviceToTrigger)
+                || ProcessingControlService.TablesList.BOOKPHOTO.getTableName().equalsIgnoreCase(serviceToTrigger)) {
 
             bookDataService.populateBookData();
         }
@@ -61,7 +54,8 @@ public class PopulatorController {
         if (TablesList.DEBTS.getTableName().equalsIgnoreCase(serviceToTrigger)) debtService.populateDebts();
         if (TablesList.HISTOTY.getTableName().equalsIgnoreCase(serviceToTrigger)) historyService.populateHistory();
 
-        if (TablesList.PENALTYPLANS.getTableName().equalsIgnoreCase(serviceToTrigger)) penaltyPlanService.populatePenaltyPlans();
+        if (TablesList.PENALTYPLANS.getTableName().equalsIgnoreCase(serviceToTrigger))
+            penaltyPlanService.populatePenaltyPlans();
         if (TablesList.VISITORS.getTableName().equalsIgnoreCase(serviceToTrigger)) visitorService.populateVisitorData();
 
         return ok(TIMESTAMP());

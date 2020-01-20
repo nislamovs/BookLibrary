@@ -30,3 +30,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+*.zip
+**/*.tar.gz
+*.log*

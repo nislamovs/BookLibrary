@@ -51,7 +51,8 @@ public class ExceptionHandlingController {
             DebtNotFoundException.class, HistoryRecordNotFoundException.class,
             PaymentNotFoundException.class, PenaltyPlanNotFoundException.class,
             ServiceNotFoundException.class, //TableAlreadyProcessedException.class,
-            TableNotFoundException.class, VisitorNotFoundException.class
+            TableNotFoundException.class, VisitorNotFoundException.class,
+            DumpNotFoundException.class
     })
     public ErrorResponse handleNotFoundException(RuntimeException ex) {
 
@@ -103,7 +104,7 @@ public class ExceptionHandlingController {
     private List<ErrorResponse> processError(MethodArgumentNotValidException ex) {
         List<ErrorResponse> errors = new ArrayList<>();
 
-        ex.getBindingResult().getAllErrors().stream()
+        ex.getBindingResult().getAllErrors()
                 .forEach(err -> errors.add(new ErrorResponse(err.getDefaultMessage())));
 
         return errors;

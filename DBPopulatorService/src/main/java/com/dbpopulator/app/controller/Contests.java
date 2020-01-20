@@ -14,6 +14,9 @@ import com.dbpopulator.app.services.BookDataService;
 import com.dbpopulator.app.services.PaymentService;
 import com.dbpopulator.app.services.ProcessingControlService;
 import com.dbpopulator.app.services.messaging.SlackService;
+import com.dbpopulator.app.services.mongoDump.MongoDumpService;
+import com.dbpopulator.app.services.mongoDump.SFTP.SFTPServerGateway;
+import com.dbpopulator.app.services.mongoDump.SFTP.SFTPService;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -24,6 +27,7 @@ import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.messaging.MessageChannel;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -48,6 +52,8 @@ import static org.springframework.http.ResponseEntity.ok;
 @RestController
 @RequiredArgsConstructor
 @Slf4j
+
+/// Dont forget to delete this class in the end :)
 public class Contests {
 
     private final GoogleBookApiClient bookApiClient;
@@ -62,14 +68,20 @@ public class Contests {
     private final DebtRepository debtRepository;
     private final BookDataService bookDataService;
     private final PaymentService paymentService;
+    private final MongoDumpService dumpService;
     private final ProcessingControlService processingControlService;
-
+    private final SFTPServerGateway sftpServerGateway;
+    private final SFTPService sftpService;
 
     @GetMapping("/test")
-    public ResponseEntity<?> test() throws IOException {
-        bookDataService.processBookData();
-        return noContent().build();
+    public ResponseEntity<?> test2333323() throws IOException {
+        return ok(dumpService.restoreLast());
     }
+
+//    @GetMapping("/test")
+//    public ResponseEntity<?> test2333323() throws IOException {
+//        return ok(dumpService.restoreDB("booklibrary_dump_2020-01-19_10:52:28.tar.gz"));
+//    }
 
     @GetMapping("/mailtest")
     public ResponseEntity<?> mail() {

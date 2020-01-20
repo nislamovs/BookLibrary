@@ -1,0 +1,2 @@
+dumpScript: "mongodump --host mongodb -d booklibrary --port 27027 --gzip --archive="
+restoreScript: "mongorestore --host mongodb -d booklibrary --port 27027 --gzip --archive="

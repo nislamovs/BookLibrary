@@ -77,6 +77,12 @@ management:
       exposure:
         include: "*"
 
+sftp:
+  host: "sftp"
+  port: 22
+  user: "sftp"
+  password: "c83eDteUDT"
+
 logging.level.com.dbpopulator.app.clients.GoogleBookApiClient: DEBUG
 logging.level.com.dbpopulator.app.clients.GoogleBookImageRetrieverClient: DEBUG
 
